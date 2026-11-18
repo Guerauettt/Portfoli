@@ -1,0 +1,141 @@
+img {
+	width: 200px ;
+	height: 280px;
+	border: 3.2px solid black; 
+	border-radius: 30px;
+	box-shadow: 3px 3px 3px 3px rgb(34, 33, 33);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+	color: #000;
+	background-color: #b8b4b4;
+    font-family: Georgia;
+	line-height: 1.5;
+}
+
+nav {
+    background-color: #1100ff;
+    padding: 18px 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+nav ul {	
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+nav a {
+    color: #ffc400;
+    text-decoration: none;
+    font-size: 1.15rem;
+    font-weight: normal;
+    letter-spacing: 0.5px;
+    transition: opacity 0.2s;
+}
+
+nav a:hover {
+    opacity: 0.7;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 40px 30px 60px;
+}
+
+h1 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #111;
+}
+
+h2 {
+    font-size: 27px;
+    margin: 35px 0 18px;
+    color: #111;
+}
+
+p {
+    max-width: 700px;
+    margin-bottom: 20px;
+    font-size: 1.05rem;
+}
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 18px;
+    margin: 20px 0 30px;
+}
+
+.galeria img {
+    width: 200px ;
+	height: 280px;
+	border: 3.2px solid black; 
+	border-radius: 30px;
+	box-shadow: 3px 3px 3px 3px rgb(34, 33, 33);
+}
+
+
+.galeria.home img {
+    width: 180px;
+    height: 180px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-top: 25px;
+}
+
+.card {
+    background-color: #fd0202;
+    border-radius: 18px;
+    padding: 25px 28px;
+    max-width: 380px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.18);
+    font-size: 16px;
+    line-height: 1.55;
+    border: 1px solid #000000;
+}
+a {
+    color: #15ff00;
+    font-weight: bold;
+}
+footer{
+    color: #ffc400;
+    background-color: #1100ff;
+    text-align: left;
+    padding: 20px;
+    margin-top: 100px;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 8px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+.ingles { background-color: aquamarine; }
+.optatiu { background-color: #a200ff; }
+.muntatge { background-color: #e2be9c; }
+.xarxes { background-color: brown }
+.ofimatica { background-color: #54cf68; }
+.tutoria { background-color: #7616ad; }
+.digitalitzacio { background-color: #c6f79e; }
+.ipo { background-color: #2bfc01; }
+.sostenibilitat { background-color: #cfa5d8; }
+.monolloc { background-color: #ff01ea; }
