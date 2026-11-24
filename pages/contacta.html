@@ -23,10 +23,14 @@
     <h1>Contacta amb mi</h1>
     <p>Escriu-me un missatge i et respondré tan aviat com pugui.</p>
     <form class="contact-form">
-      <input type="text" name="nom" placeholder="Nom complet" aria-label="Nom complet" autocomplete="name" required>
-      <input type="email" name="email" placeholder="Correu electrònic" aria-label="Correu electrònic" autocomplete="email" required>
-      <input type="text" name="assumpte" placeholder="Assumpte" aria-label="Assumpte" required>
-      <textarea name="missatge" placeholder="Missatge" aria-label="Missatge" rows="5" required></textarea>
+      <label for="nom">Nom complet</label>
+      <input id="nom" type="text" name="nom" placeholder="Escriu el teu nom complet..." autocomplete="name" required>
+      <label for="email">Correu electrònic</label>
+      <input id="email" type="email" name="email" placeholder="Escriu el teu correu electrònic..." autocomplete="email" required>
+      <label for="assumpte">Assumpte</label>
+      <input id="assumpte" type="text" name="assumpte" placeholder="Escriu l'assumpte del missatge..." required>
+      <label for="missatge">Missatge</label>
+      <textarea id="missatge" name="missatge" placeholder="Escriu el teu missatge aquí..." rows="5" required></textarea>
       <button type="submit">Enviar</button>
     </form>
   </main>

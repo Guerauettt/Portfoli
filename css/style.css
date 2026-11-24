@@ -145,8 +145,9 @@ table, th, td {
 .contact-page h1 { font-size: 42px; margin-bottom: 8px; }
 .contact-page > p { margin-bottom: 24px; }
 .contact-form { display: grid; gap: 14px; max-width: 620px; padding: 26px; background: #efefef; border: 2px solid #111; border-radius: 16px; box-shadow: 5px 6px 0 #111; }
+.contact-form label { font-style: normal; font-weight: bold; }
 .contact-form input, .contact-form textarea { width: 100%; padding: 12px; border: 2px solid #777; border-radius: 8px; font: 1rem Georgia, serif; }
-.contact-form textarea { min-height: 130px; font-family: "Courier New", monospace; resize: vertical; }
+.contact-form textarea { min-height: 130px; font-family: Georgia, serif; resize: vertical; }
 .contact-form input:focus, .contact-form textarea:focus { outline: 2px solid #1100ff; }
 .contact-form button { justify-self: end; padding: 11px 18px; border: 2px solid #111; border-radius: 8px; background: #1100ff; color: #ffc400; font: bold 1rem Georgia, serif; cursor: pointer; }
 .contact-page h1, .contact-form input, .contact-form textarea, .contact-form button { font-style: italic; }
