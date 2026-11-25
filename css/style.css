@@ -162,3 +162,116 @@ table, th, td {
 .ipo { background-color: #2bfc01; }
 .sostenibilitat { background-color: #cfa5d8; }
 .monolloc { background-color: #ff01ea; }
+
+.calendar-page {
+    background: #bdbdbd;
+    font-family: Georgia, "Times New Roman", serif;
+    line-height: normal;
+}
+
+.calendar {
+    width: 512px;
+    min-height: 563px;
+    margin: 0 auto;
+    padding: 15px 23px 22px;
+    background: #bdbdbd;
+}
+
+.calendar h1 {
+    margin: 0 0 14px;
+    font-size: 36px;
+    line-height: 1.05;
+}
+
+.calendar .mes {
+    margin: 0 0 16px;
+}
+
+.calendar .mes table {
+    width: 100%;
+    border: 0;
+    border-collapse: collapse;
+    table-layout: fixed;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 21px;
+}
+
+.calendar .mes caption {
+    height: 42px;
+    padding: 3px 0 2px;
+    background: #050505;
+    color: #fff;
+    border: 2px solid #aaa;
+    border-bottom: 0;
+    font-size: 22px;
+    line-height: 34px;
+    font-weight: 700;
+}
+
+.calendar .mes th {
+    height: 32px;
+    background: #050505;
+    color: #fff;
+    border: 2px solid #d2d2d2;
+    font-size: 21px;
+    font-weight: 700;
+    padding: 1px 4px;
+}
+
+.calendar .mes td {
+    height: 28px;
+    padding: 0 4px;
+    border: 0;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 21px;
+    font-family: Georgia, "Times New Roman", serif;
+}
+
+.calendar .mes td.festiu {
+    color: #f00025;
+}
+
+.calendar .mes td.nacional {
+    background: #ef4848;
+    color: #fff;
+}
+
+.calendar .mes td.autonomic {
+    background: #10a36a;
+    color: #fff;
+}
+
+.calendar .legend {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    margin-top: 4px;
+}
+
+.calendar .legend div {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    min-height: 42px;
+    font-size: 20px;
+}
+
+.calendar .legend div:last-child {
+    justify-content: flex-end;
+}
+
+.calendar .festiu-nacional,
+.calendar .festiu-autonomic {
+    display: inline-block;
+    width: 88px;
+    height: 32px;
+}
+
+.calendar .festiu-nacional {
+    background: #ef4848;
+}
+
+.calendar .festiu-autonomic {
+    background: #10a36a;
+}
